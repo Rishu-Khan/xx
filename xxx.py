@@ -87,12 +87,12 @@ def main():
     print logo
 
     print("")
-    print("\033[1;97m---------------------------------------------")
     print("             \033[0;90m( Cloning Main Menu )").center(50)
+    print("\033[1;97m------------------------------------------")
     print("\033[1;91m(1)\033[1;93m -> \033[1;92mClone Public ID (Fast)")
     print("\033[1;91m(2)\033[1;93m -> \033[1;92mOwner Info")
     print("\033[1;91m(3)\033[1;93m -> \033[1;92mlogout tool")
-    print("\033[1;97m---------------------------------------------")
+    print("\033[1;97m------------------------------------------")
     print("")
 
     main_select()
@@ -128,8 +128,8 @@ def login():
     os.system("clear")
 
     print logo
-    print("\033[1;97m---------------------------------------------------")
     print("           \033[0;90m( LOGIN MAIN MENU )").center(50)
+    print("\033[1;97m---------------------------------------------------")
     print("\033[1;91m(1)\033[1;93m -> \033[1;92mLogin Using Token")
     print("\033[1;91m(2)\033[1;93m -> \033[1;92mLogin Using ID/Password")
     print("\033[1;91m(3)\033[1;93m -> \033[1;92mMain menu back")
@@ -761,15 +761,15 @@ def menu_select():
 
 	print (" ")
 
+	print (47*"-")       
+        print("\033[1;97m---------------------------------------------")
+	print ("\033[1;93m-> \033[1;92mYour Process has completed Successful")
+
+	print ("\033[1;93m-> \033[1;92mTotal Cp/Ok : "+str(len(cps)) + "/"+str(len(oks)))
+
 	print (47*"-")
 
-	print ("-> Your Process has completed Successful")
-
-	print ("-> Total Cp/Ok : "+str(len(cps)) + "/"+str(len(oks)))
-
-	print (47*"-")
-
-	raw_input("\t\x1b[0;97mPress enter to main menu back")
+	raw_input("\t\x1b[0;92mPress enter to main menu back")
 
 	menu()
 
