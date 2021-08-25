@@ -87,7 +87,7 @@ def main():
     print logo
 
     print("")
-    print("             \033[0;90m( Cloning Main Menu )").center(50)
+    print("         \033[0;90m( Cloning Main Menu )").center(50)
     print("\033[1;97m------------------------------------------")
     print("\033[1;91m(1)\033[1;93m -> \033[1;92mClone Public ID (Fast)")
     print("\033[1;91m(2)\033[1;93m -> \033[1;92mOwner Info")
@@ -128,7 +128,7 @@ def login():
     os.system("clear")
 
     print logo
-    print("           \033[0;90m( LOGIN MAIN MENU )").center(50)
+    print("        \033[0;90m( LOGIN MAIN MENU )").center(50)
     print("\033[1;97m---------------------------------------------------")
     print("\033[1;91m(1)\033[1;93m -> \033[1;92mLogin Using Token")
     print("\033[1;91m(2)\033[1;93m -> \033[1;92mLogin Using ID/Password")
@@ -338,7 +338,7 @@ def menu():
     print logo
 
     print("")
-    print("               \t\033[1;92mLogin Account : \033[1;90m" +nm)
+    print("        \t\033[1;92mLogin Account : \033[1;90m" +nm)
     print("\033[1;970m----------------------------------------")
     print("\033[1;91m[1]\033[1;93m -> \033[1;92mCrack From Friendlist")
     print("\033[1;91m[2]\033[1;93m -> \033[1;92mCrack From Public ID")
